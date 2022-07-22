@@ -98,16 +98,16 @@
 ## ......................................
 
 
-# ## Exercise 8
-# def fib(n):
-#     if n == 0:
-#         return 0
-#     elif n == 1:
-#         return 1
-#     else: 
-#         return fib(n - 1) + fib(n - 2)
-# list1 = []
-# for i in range(0,int(input("Enterb naumber:-- >"))+1):
-#     list1.append(fib(i))
-# print(list1)
+## Exercise 8
+def fib(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else: 
+        return fib(n - 1) + fib(n - 2)
+list1 = []
+for i in range(0,int(input("Enterb naumber:-- >"))+1):
+    list1.append(fib(i))
+print(list1)
 # ##.............................   
